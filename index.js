@@ -4,6 +4,7 @@ const port = 5000
 
 const port0 = 5000
 
+console.log('from Artur')
 
 app.post('/', (req, res) => {
 
@@ -15,19 +16,6 @@ app.post('/', (req, res) => {
 app.delete('/', (req, res) => {
     res.send('Hello Lettt!')
   })
-  app.get('/', (req, res) => {
-    res.send('Hello World!')
-  })
-  app.get('/', (req, res) => {
-    res.send('Hello World!')
-  })
-  app.get('/', (req, res) => {
-    res.send('Hello World!')
-  })
-  app.get('/', (req, res) => {
-    res.send('Hello World!')
-  })
-  
 
 
 app.listen(port, () => {
@@ -35,14 +23,6 @@ app.listen(port, () => {
 })
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-  })
-  
-
-  app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-  })
-  app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
   })
   
