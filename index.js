@@ -3,12 +3,12 @@ const app = express()
 const port = 5000
 
 
-app.get('/', (req, res) => {
-  res.send('Hello Artur!')
+app.post('/', (req, res) => {
+  res.send('Hello Illya!')
 })
 
-app.get('/', (req, res) => {
-    res.send('Hello World!')
+app.delete('/', (req, res) => {
+    res.send('Hello Lettt!')
   })
 
 app.listen(port, () => {
