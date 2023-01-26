@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 5000
+const port = 7000
 
 
 app.post('/', (req, res) => {
@@ -13,6 +13,7 @@ app.post('/', (req, res) => {
 app.delete('/', (req, res) => {
     res.send('Hello Lettt!')
   })
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
