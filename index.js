@@ -3,34 +3,18 @@ const app = express()
 const port = 5000
 
 const port0 = 5000
-const attr = 343049
 
-
-console.log('from artur')
 
 app.post('/', (req, res) => {
 
-  res.send('Hello ERRRERER!')
-  res.send('Hello AAAAAA!')
+  res.send('Hello Andrei!')
+  res.send('Hello Illya!')
 
 })
 
 app.delete('/', (req, res) => {
-    res.send('Hello IIIIII!')
+    res.send('Hello Lettt!')
   })
-  app.get('/', (req, res) => {
-    res.send('Hello World!')
-  })
-  app.get('/', (req, res) => {
-    res.send('Hello World!')
-  })
-  app.get('/', (req, res) => {
-    res.send('Hello World!')
-  })
-  app.get('/', (req, res) => {
-    res.send('Hello World!')
-  })
-  
 
 
 app.listen(port, () => {
@@ -38,14 +22,6 @@ app.listen(port, () => {
 })
 
 app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-  })
-  
-
-  app.listen(port, () => {
-    console.log(`Example app listening on port ${port}`)
-  })
-  app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
   })
   
