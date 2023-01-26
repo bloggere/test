@@ -7,8 +7,8 @@ const port0 = 5000
 
 app.post('/', (req, res) => {
 
-  res.send('Hello Andrei!')
-  res.send('Hello Illya!')
+  res.send('Hello WORLF!')
+  res.send('Hello WOLF!')
 
 })
 
