@@ -15,6 +15,19 @@ app.post('/', (req, res) => {
 app.delete('/', (req, res) => {
     res.send('Hello Lettt!')
   })
+  app.get('/', (req, res) => {
+    res.send('Hello World!')
+  })
+  app.get('/', (req, res) => {
+    res.send('Hello World!')
+  })
+  app.get('/', (req, res) => {
+    res.send('Hello World!')
+  })
+  app.get('/', (req, res) => {
+    res.send('Hello World!')
+  })
+  
 
 
 app.listen(port, () => {
