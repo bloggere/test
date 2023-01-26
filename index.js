@@ -8,13 +8,13 @@ const attr = 343049
 
 app.post('/', (req, res) => {
 
-  res.send('Hello Andrei!')
-  res.send('Hello Illya!')
+  res.send('Hello ERRRERER!')
+  res.send('Hello AAAAAA!')
 
 })
 
 app.delete('/', (req, res) => {
-    res.send('Hello Lettt!')
+    res.send('Hello IIIIII!')
   })
 
 
