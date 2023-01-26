@@ -4,7 +4,10 @@ const port = 5000
 
 
 app.post('/', (req, res) => {
+
+  res.send('Hello Andrei!')
   res.send('Hello Illya!')
+
 })
 
 app.delete('/', (req, res) => {
