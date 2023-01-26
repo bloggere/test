@@ -4,11 +4,14 @@ const port = 5000
 
 
 app.post('/', (req, res) => {
+
   res.send('Hello Andrei!')
+  res.send('Hello Illya!')
+
 })
 
-app.get('/', (req, res) => {
-    res.send('Hello World!')
+app.delete('/', (req, res) => {
+    res.send('Hello Lettt!')
   })
 
 app.listen(port, () => {
