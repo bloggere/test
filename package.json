@@ -1,0 +1,11 @@
+{
+  "name": "vvv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bloggere/vvv.git",
+  "author": "bloggere <apitestblogger@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
