@@ -6,6 +6,8 @@ const port0 = 5000
 const attr = 343049
 
 
+console.log('from artur')
+
 app.post('/', (req, res) => {
 
   res.send('Hello ERRRERER!')
