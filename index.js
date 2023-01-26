@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
 const port = 5000
+const port2 = 5000
+const port3 = 5000
 
 
 app.post('/', (req, res) => {
